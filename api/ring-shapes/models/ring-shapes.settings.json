@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ring_shapes",
+  "info": {
+    "name": "Ring Shapes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Shape": {
+      "type": "string"
+    }
+  }
+}

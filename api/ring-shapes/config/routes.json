@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ring-shapes",
+      "handler": "ring-shapes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ring-shapes/count",
+      "handler": "ring-shapes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ring-shapes/:id",
+      "handler": "ring-shapes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ring-shapes",
+      "handler": "ring-shapes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ring-shapes/:id",
+      "handler": "ring-shapes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ring-shapes/:id",
+      "handler": "ring-shapes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

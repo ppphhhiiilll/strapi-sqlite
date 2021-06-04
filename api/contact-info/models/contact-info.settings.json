@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_infos",
+  "info": {
+    "name": "Contact Info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Instagram": {
+      "type": "string"
+    }
+  }
+}
