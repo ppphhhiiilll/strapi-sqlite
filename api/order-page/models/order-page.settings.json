@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "order_pages",
+  "info": {
+    "name": "Order Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Active": {
+      "type": "boolean"
+    },
+    "Info": {
+      "type": "text"
+    }
+  }
+}
